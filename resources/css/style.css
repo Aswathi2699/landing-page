@@ -9,6 +9,7 @@ section{
     background-image: url('../webdev.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .container{
@@ -20,6 +21,15 @@ section{
 nav{
     height: 80px;
 }
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb7620;
+}
+
 nav ul{
     float: right;
     line-height: 80px;  
@@ -98,6 +108,8 @@ nav ul li .active{
     color: darkblue;
     padding: 3px;
 }
+
+
 
 
 
